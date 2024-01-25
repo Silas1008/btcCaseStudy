@@ -1,0 +1,88 @@
+hr {
+    background-color: lightgrey;
+    height: 4px;
+    margin: 50px auto; /* Center horizontally */
+    border: none;
+    width: 80vw;
+    border-radius: 8px;
+  }
+  p{
+   font-size: 18px;
+   margin-top: 30px;
+   font-weight: 500;
+   line-height: 30px;
+  }
+  h3{
+    color: grey;
+  }
+  h2{
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  li{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(14, 37, 150);
+  }
+  .landing img {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 145px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+    
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.title h1{
+    font-size: 55px;
+}
+.timeframe{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.timeframe li{
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.introduction{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.introduction {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .background{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .propose{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .support{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .groups h4{
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(14, 37, 150);
+  }
+  

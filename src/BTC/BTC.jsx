@@ -1,5 +1,20 @@
-import "./BTC.css"
-import landing1 from "../Assets/landing1.jpg"
+import "./BTC.css";
+import landing1 from "../Assets/landing1.jpg";
+import conceptboard from "../Assets/ConceptBoard.png";
+import primarycases from "../Assets/primaryCases.png";
+import priority1 from "../Assets/priority1.png";
+import priority2 from "../Assets/priority2.png";
+import priority3 from "../Assets/priority3.png";
+import trans1 from "../Assets/trans1.png";
+import trans2 from "../Assets/trans2.png";
+import trans3 from "../Assets/trans3.png";
+import trans4 from "../Assets/trans4.png";
+import trans5 from "../Assets/trans5.png";
+import trans6 from "../Assets/trans6.png";
+import up1 from "../Assets/up1.png"
+import up2 from "../Assets/up2.png"
+import up3 from "../Assets/up3.png"
+
 
 const BTC = () => {
   return (
@@ -42,6 +57,10 @@ const BTC = () => {
     </ul>
     </div>
 
+    <div className="concept">
+    <img src={conceptboard} alt=""/>
+    </div>
+
     <hr></hr>
 
     <div className="background">
@@ -61,6 +80,10 @@ const BTC = () => {
     <h3>Preposition</h3>
     <h2>The Purpose of this platform</h2>
     <p>The purpose of this platform is to empower the community to be a beacon of support for those <br></br>in need. It seeks to harness the power of education to instigate positive change in a child's life, <br></br>providing them with the tools to break free from cycles of adversity. Additionally, the platform <br></br>aims to cultivate a network of support for women facing various challenges, offering a safe <br></br>space where they can be acknowledged, understood, and accepted. The overarching goal is to <br></br>provide a sense of relief and hope, demonstrating that positive transformations are not only <br></br>possible but achievable through collective efforts and genuine community engagement.</p>
+    </div>
+
+    <div className="primary-cases">
+    <img src={primarycases} alt="" style={{width: "80vw", marginTop: "50px"}}/>
     </div>
 
     <hr></hr>
@@ -90,6 +113,50 @@ const BTC = () => {
     <h4>Mentorship Programs</h4>
     <p>Establish mentorship initiatives, connecting volunteers with individuals <br></br>to provide guidance and support for personal and professional growth.</p>
     </div>
+     </div>
+
+     <hr></hr>
+
+     <div className="priority" >
+     <h3>Prioritization</h3>
+     <h2 style={{textAlign: "center", marginTop: "100px"}}>Prioritization Statements and Goals</h2>
+     </div>
+
+     <div className="priority-images">
+     <img src={priority1} alt=""/>
+     <img src={priority2} alt=""/>
+     <img src={priority3} alt=""/>
+     </div>
+
+     <div className="transparency" style={{textAlign: "center", marginTop: "100px"}}>
+     <h2>Transparent Decision-Making Processes</h2>
+     </div>
+
+     <div className="trans-images">
+     <img src={trans1} alt=""/>
+     <img src={trans2} alt=""/>
+     <img src={trans3} alt=""/>
+     </div>
+
+     <div className="trans-images2">
+     <img src={trans4} alt=""/>
+     <img src={trans5} alt=""/>
+     <img src={trans6} alt=""/>
+     </div>
+
+     <div className="prioritize-discussion">
+     <p>The platform's commitment to transparency, user involvement, and a shared vision fosters trust and collaboration. <br></br> Prioritizing education empowerment, community well-being, and collaborative projects, users actively shape <br></br> the platform. Transparent decision-making processes, showcased through open communication and feedback <br></br> mechanisms, ensure user voices are heard. Impact Reports vividly illustrate positive outcomes. Through these <br></br> efforts, the platform visibly demonstrates a commitment to fostering a community where every member feels <br></br> valued and contributes to a shared vision of success.</p>
+     </div>
+
+     <hr></hr>
+
+     <div className="user-personas">
+     <h3>Users' personas</h3>
+     <h2>Diverse User Personas: <br></br>Navigating the Educational Landscape</h2>
+     <p>These personas represent different user types, including teachers, volunteers, and casual learners, <br></br>showcasing the diverse needs and goals that the platform aims to address.</p>
+     <img src={up1} alt=""/>
+     <img src={up2} alt=""/>
+     <img src={up3} alt=""/>
      </div>
 
      <hr></hr>
